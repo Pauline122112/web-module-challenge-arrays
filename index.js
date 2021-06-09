@@ -46,10 +46,11 @@ Use the copy function below to do the following:
 */
 
 function copy(array){
-    const copyofOriginalFlavors=[...originalFlavors];
-    return copyofOriginalFlavors;
-    
+    const thirtyOneFlavors=[...originalFlavors];
+
+    return thirtyOneFlavors;
 }    
+copy(originalFlavors);
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
