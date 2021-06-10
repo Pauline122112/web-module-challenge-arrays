@@ -67,7 +67,7 @@ For Example: is31Flavors(originalFlavors) will return true if your code is worki
 // function should accept an array as a parameter
 //Check to see if the array given is 31 flavors
 function is31Flavors(arrayNum){
-       if (arrayNum.length === is31Flavors){
+       if (arrayNum.length && is31Flavors){
            return true;
        }
        console.log(arrayNum);
