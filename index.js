@@ -54,8 +54,6 @@ copy(originalFlavors);
 
 
 
-
-
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Confirm that an array is exactly 31 flavors. Your function should accept:
     1. an array as a parameter
@@ -66,9 +64,15 @@ Confirm that an array is exactly 31 flavors. Your function should accept:
 For Example: is31Flavors(originalFlavors) will return true if your code is working properly
 */
 
-
-function is31Flavors(/*your code here*/){
-   /*your code here*/
+// function should accept an array as a parameter
+//Check to see if the array given is 31 flavors
+function is31Flavors(arrayNum){
+   let isFlavors = [];
+   for(let i = 0; i < arrayNum; i++){
+       if (isFlavors === is31Flavors){
+           return "true"
+       }
+   }
 }
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
